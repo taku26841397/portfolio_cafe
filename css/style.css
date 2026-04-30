@@ -59,7 +59,7 @@ h2 {
 }
 
 #wrapper {
-    margin: 0 auto;
+    margin: 0 auto  ;
     max-width: 1200px;
 }
 
@@ -126,7 +126,7 @@ h2 {
 /* パンくずリスト */
 .breadcrumb {
     max-width: 1200px;
-    margin-left: 50px;
+    margin-left: 5%;
 
     width: 200px;
 
@@ -139,9 +139,9 @@ h2 {
 
 .breadcrumb2 {
     max-width: 1200px;
-    margin-left: 210px;
+    margin-left: 5%;
 
-    width: 500px;
+    width: 200px;
 
 
 }
@@ -1072,18 +1072,21 @@ footer small {
 }
 
 #sub_kiji .kategori ul {
-    margin-bottom: 50px;
+    margin-bottom: 70px;
+    
+    
 
 }
 
 
 #sub_kiji .kategori ul li {
     border-top: 1px solid #4a4040;
+    
 }
 
 #sub_kiji .kategori ul li a {
     display: block;
-    padding: 15px 100px 15px 0;
+    padding: 15px 80px 15px 0;
     font-family: "Philosopher", serif;
     font-size: 1.4rem;
     font-weight: 500;
@@ -1096,7 +1099,7 @@ footer small {
     padding: 8px;
     border: 1px solid #4a4040;
     margin: 4px;
-    width: 400px;
+    width: 350px;
     box-shadow: 0 0px 8px rgba(0, 0, 0, 0.12);
     transition: all 0.5s;
     background-color: #fff;
@@ -1487,6 +1490,7 @@ footer small {
     #wrapper {
         margin: 0 auto;
         max-width: 700px;
+        
     }
 
     .about {

@@ -32,12 +32,18 @@ const slides = document.querySelectorAll('.slide');
 
 const loading = document.getElementById("loading");
 
-    window.addEventListener("load", () => {
+    if (!sessionStorage.getItem('visited')){
+      window.addEventListener("load", () => {
       setTimeout(() => {
         loading.classList.add("hide");
       }, 2000);  
     });
+      sessionStorage.setItem('visited','true');
+    }else{
+      document.getElementById('loading').style.display = 'none';
+    }
 
+    
 
 const load_amine = (entries, obs) => {
   
